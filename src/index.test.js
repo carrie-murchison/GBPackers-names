@@ -1,13 +1,13 @@
 import {expect} from 'chai'
-import GBPackersNames from '.'
+import GBPackers-names from '.'
 
 describe('GBPackers-names', () => {
   it('should have a list of all available names', () => {
-    expect(GBPackersNames.all).to.satisfy(isArrayOfStrings)
+    expect(GBPackers-names.all).to.satisfy(isArrayOfStrings)
   })
 
   it('should allow me to get a random name from the list', () => {
-    expect(GBPackersNames.random()).to.satisfy(isIncludedIn(GBPackersNames.all))
+    expect(GBPackers-names.random()).to.satisfy(isIncludedIn(GBPackers-names.all))
   })
 })
 
