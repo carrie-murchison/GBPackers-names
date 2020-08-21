@@ -1,3 +1,3 @@
-# starwars-names
+# GBPackers-names
 
-For all your random Star Wars character needs
+For all your random Green Bay Packer Player needs
