@@ -73,7 +73,6 @@
       "babel-register"
     ]
   },
-  
   "babel": {
     "presets": [
       "es2015"
